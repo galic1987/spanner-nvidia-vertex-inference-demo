@@ -1,5 +1,12 @@
 # Spanner DeFi connector and Timeseries GPU train/inference example
 
+This solution connects to a decentralized exchange https://mango.markets over Solana Blockchain and streams real-time information on Solana perpetual futures into Google Spanner. 
+We use the data to train the model in Vertex AI notebook using Nvidia CUDA 11 capable graphic card to predict the price-delta of the asset with variable time horizon.
+
+
+**Google cloud platform real-time training/inference architecture**
+
+
 Google cloud platform real-time training/inference architecture
 
 ![GCP architecture](archi.png)
