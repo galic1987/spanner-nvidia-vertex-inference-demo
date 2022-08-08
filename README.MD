@@ -6,9 +6,6 @@ We use the data to train the model in Vertex AI notebook using Nvidia CUDA 11 ca
 
 **Google cloud platform real-time training/inference architecture**
 
-
-Google cloud platform real-time training/inference architecture
-
 ![GCP architecture](archi.png)
 
 
