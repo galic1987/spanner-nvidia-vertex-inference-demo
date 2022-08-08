@@ -60,8 +60,6 @@ python 2_connector_stream.py
 
 ```
 
-Run [2_start_solana_mango_connector.ipynb](2_start_solana_mango_connector.ipynb) notebook.
-
 - If everything is ok the output should be 
 ```
 Inserted instance data.{'DATA_KEY': '83bfca51-7f81-43e1-9240-dad2df820d47', 'FUNDING': Decimal('-0.000017749'), 'OPEN_INTEREST': Decimal('370173.500000000'), 'ORACLE_PRICE': Decimal('40.735000000'), 'MID_PRICE': Decimal('40.735000000'), 'LONG_FUNDING': Decimal('148554.672244567'), 'SHORT_FUNDING': Decimal('148554.672244567'), 'APR': Decimal('-0.155484342'), 'APY': Decimal('-0.144000701'), 'SPREAD': Decimal('0.010000000'), 'SYMBOL': 'SOL-PERP', 'OBSERVATION_TIME': 'spanner.commit_timestamp()'}
