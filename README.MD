@@ -27,7 +27,7 @@ cd spanner-nvidia-vertex-inference-demo
 
 4) **Install the dependencies with pip from requriements.txt** Write the following line in notebook cell
 ```shell
-!pip install -r requriements.txt
+!pip install -r requirements.txt
 ```
 
 5) **Create a role and access key for spanner -> save it in the project and name it key.json**
@@ -38,7 +38,7 @@ cd spanner-nvidia-vertex-inference-demo
 - Click Done
 - Click on the new service account three dots and click 'Manage Keys'
 - Click on add key -> Create new key -> JSON
-- Create a new file **key.json** inside the Vertex notebook cloned project folder and paste the contents of downloaded key inside **key.json**
+- Create a new file **key.json** inside the Vertex notebook cloned project folder **/spanner-nvidia-vertex-inference-demo** and paste the contents of downloaded key inside **key.json**
 
 6) **Create a table 'StreamDeFiFutures'**
 
@@ -55,6 +55,7 @@ Open shell
 ```shell 
 conda create -n python39 python=3.9.2
 conda activate python39
+cd spanner-nvidia-vertex-inference-demo
 pip install -r requirements-connector.txt
 python 2_connector_stream.py
 
