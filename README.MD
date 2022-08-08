@@ -51,6 +51,15 @@ Created database futuresfunding on instance defi
 ```
 7) **Run the data stream ingestion job**
 
+Open shell 
+```shell 
+conda create -n python39 python=3.9.2
+conda activate python39
+pip install -r requirements-connector.txt
+python 2_connector_stream.py
+
+```
+
 Run [2_start_solana_mango_connector.ipynb](2_start_solana_mango_connector.ipynb) notebook.
 
 - If everything is ok the output should be 
